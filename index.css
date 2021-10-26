@@ -1,0 +1,69 @@
+body {
+  background-color: whitesmoke;
+}
+
+.container-body {
+  background-image: url("pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #d8d8f0;
+  border: 1px solid #e0e8ff;
+  margin: 100px 200px 50px 100px;
+  padding: 50px;
+  font-size: small;
+  border-radius: 5px;
+}
+
+.container-main-body {
+  padding: 0px;
+  border: 1px solid #e0e8ff;
+  width: 450px;
+  height: 600px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container-subBody {
+  border: 1px solid #e0e8ff;
+  background-color: whitesmoke;
+  width: 350px;
+  height: 40px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container-subBody-1 {
+  border: 1px solid #e0e8ff;
+  background-color: blue;
+  color: white;
+  padding: 2px;
+  margin: 30px;
+  width: 370px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#msg {
+  width: 300px;
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+}
+
+h1, h3 {
+  width: 400px;
+  text-align: center;
+  cursor: pointer;
+}
